@@ -12,7 +12,7 @@ public class Lab01 {
     }
 
     public static void task2632(int cx, int cy, int r, String fill) {
-        System.out.println("<circle cx= " + "\" " + cx + "\" " + "cy= " + "\" " + cy + "\" " +  "r= " + "\" " + r + "\" " + "fill= " + "\" " + fill + "\"/>");
+        System.out.println("<circle cx= \""  + cx + "\" " + "cy= \"" + cy + "\" " +  "r= \"" + r + "\" " + "fill= \"" + fill + "\"/>");
 
     }
 
