@@ -17,7 +17,7 @@ public class Lab12Task5164 {
 //        Step7271();
 //        Step2632();
 //
-//        Step4343();
+        Step4343();
     }
 
     static void Step1860() {
@@ -37,18 +37,18 @@ public class Lab12Task5164 {
         Lab01.task7472("шаг", "шаг");
     }
 
-//    static void Step4343() {
-//        System.out.println();
-//        System.out.println("4343");
-//        Lab01.task4343("test", "pass", "localhost", "5432", "my_db");
-//        Lab01.task4343(
-//            "admin",
-//            "7e8efd48d69c",
-//            "production-node1",
-//            "5432",
-//            "bank");
-//        Lab01.task4343("akryukov", "123", "localhost", "dev-node1", "bank");
-//    }
+    static void Step4343() {
+        System.out.println();
+        System.out.println("4343");
+        Lab01.task4343("test", "pass", "localhost", "5432", "my_db");
+        Lab01.task4343(
+            "admin",
+            "7e8efd48d69c",
+            "production-node1",
+            "5432",
+            "bank");
+        Lab01.task4343("akryukov", "123", "localhost", "dev-node1", "bank");
+    }
 //
 //    static void Step2632() {
 //        System.out.println();
