@@ -16,6 +16,7 @@ public class Lab01 {
 
     }
 
-
+    public static void task7271( int q, int w) {
+        System.out.println("INSERT INTO points (x, y) VALUES ("+ q+", "+w+");");
+    }
 }
-

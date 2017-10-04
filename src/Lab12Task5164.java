@@ -14,7 +14,7 @@ public class Lab12Task5164 {
 //        Step9231();
 //        Step8624();
 //        Step2959();
-//        Step7271();
+        Step7271();
 //        Step2632();
 //
         Step4343();
@@ -62,12 +62,13 @@ public class Lab12Task5164 {
 //                "#cc6600");
 //    }
 //
-//    static void Step7271() {
-//        System.out.println();
-//        System.out.println("7271");
-//        Lab01.task7271(5, 7);
-//        Lab01.task7271(-1, 1000);
-//    }
+    static void Step7271() {
+        System.out.println();
+        System.out.println("7271");
+        Lab01.task7271(5, 7);
+        Lab01.task7271(-1, 1000);
+
+    }
 //
 //    static void Step2959() {
 //        System.out.println();
