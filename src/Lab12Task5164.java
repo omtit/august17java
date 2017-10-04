@@ -14,8 +14,13 @@ public class Lab12Task5164 {
 //        Step9231();
 //        Step8624();
 //        Step2959();
+
+
+        Step2632();
+
         Step7271();
-//        Step2632();
+
+
 //
         Step4343();
     }
@@ -37,6 +42,11 @@ public class Lab12Task5164 {
         Lab01.task7472("шаг", "шаг");
     }
 
+
+
+
+
+
     static void Step4343() {
         System.out.println();
         System.out.println("4343");
@@ -49,18 +59,19 @@ public class Lab12Task5164 {
             "bank");
         Lab01.task4343("akryukov", "123", "localhost", "dev-node1", "bank");
     }
+
 //
-//    static void Step2632() {
-//        System.out.println();
-//        System.out.println("2632");
-//        Lab01.task2632(50, 50, 40, "yellow");
-//        Lab01.task2632(400, 300, 200, "green");
-//        Lab01.task2632(
-//                254,
-//                356,
-//                100,
-//                "#cc6600");
-//    }
+    static void Step2632() {
+        System.out.println();
+        System.out.println("2632");
+        Lab01.task2632(50, 50, 40, "yellow");
+        Lab01.task2632(400, 300, 200, "green");
+        Lab01.task2632(
+                254,
+                356,
+                100,
+                "#cc6600");
+    }
 //
     static void Step7271() {
         System.out.println();
