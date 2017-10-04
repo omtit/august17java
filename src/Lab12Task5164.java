@@ -20,6 +20,7 @@ public class Lab12Task5164 {
 //        Step4343();
     }
 
+
     static void Step1860() {
         System.out.println();
         System.out.println("1860");
