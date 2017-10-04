@@ -11,4 +11,11 @@ public class Lab01 {
         System.out.println(b + " " + a);
     }
 
+    public static void task2632(int cx, int cy, int r, String fill) {
+        System.out.println("<circle cx= " + "\" " + cx + "\" " + "cy= " + "\" " + cy + "\" " +  "r= " + "\" " + r + "\" " + "fill= " + "\" " + fill + "\"/>");
+
+    }
+
 }
+
+
