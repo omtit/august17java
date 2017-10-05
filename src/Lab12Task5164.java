@@ -12,7 +12,7 @@ public class Lab12Task5164 {
 //        Step3862();
 //
 //        Step9231();
-//        Step8624();
+        Step8624();
 //        Step2959();
 
 
@@ -88,12 +88,12 @@ public class Lab12Task5164 {
 //        Lab01.task2959("fa93f");
 //    }
 //
-//    static void Step8624() {
-//        System.out.println();
-//        System.out.println("8624");
-//        Lab01.task8624(811);
-//        Lab01.task8624(1583);
-//    }
+    static void Step8624() {
+        System.out.println();
+        System.out.println("8624");
+        Lab01.task8624(811);
+        Lab01.task8624(1583);
+    }
 //
 //    static void Step9231() {
 //        System.out.println();
