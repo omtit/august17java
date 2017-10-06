@@ -6,15 +6,11 @@ public class Lab13Task9701 {
     public static void main(String[] args) {
         Step9020();
 //        Step7237();
-//        Step9020();
 
-//        Step7237();
        Step3943();
 
         Step7237();
-//        Step3943();
 
-//        Step8873();
         Step8873();
 //        Step2624();
 //
@@ -38,8 +34,8 @@ public class Lab13Task9701 {
 //
 //        Step9180();
 //        Step1544();
+        Step9812();
    Step9631();
-//        Step9812();
 //        Step5728();
 //
 //        Step5923();
@@ -530,21 +526,21 @@ public class Lab13Task9701 {
 //        }
 //    }
 //
-//    static void Step9812() {
-//        System.out.println();
-//        System.out.println("9812");
-//        String[] in9812a = {"a", "w", "g", "x"};
-//        String[] in9812b = {"x", "d", "z", "u"};
-//        int[] out9812 = {6, 2, 0, 0};
-//        for (int i = 0; i < in9812a.length; i++) {
-//            try {
-//                int result = Lab07.task9812(in9812a[i], in9812b[i]);
-//                System.out.printf("%d (%d)\n", result, out9812[i]);
-//            } catch (Exception e) {
-//                System.out.println(e.getMessage());
-//            }
-//        }
-//    }
+    static void Step9812() {
+        System.out.println();
+        System.out.println("9812");
+        String[] in9812a = {"a", "w", "g", "x"};
+        String[] in9812b = {"x", "d", "z", "u"};
+        int[] out9812 = {6, 2, 0, 0};
+        for (int i = 0; i < in9812a.length; i++) {
+            try {
+                int result = Lab07.task9812(in9812a[i], in9812b[i]);
+                System.out.printf("%d (%d)\n", result, out9812[i]);
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+        }
+    }
 //
     static void Step9631() {
         System.out.println();
