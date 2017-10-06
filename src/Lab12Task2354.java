@@ -19,7 +19,7 @@ public class Lab12Task2354 {
 //        Step7457();
 //        Step9865();
 //        Step3558();
-//        Step4366();
+        Step4366();
 //
 //        Step5980();
 //        Step8174();
@@ -179,13 +179,13 @@ public class Lab12Task2354 {
 //        System.out.printf("%.6f\n", Lab02.task3558(7523, 7517) - 1.8148);
 //    }
 //
-//    private static void Step4366(){
-//        System.out.println();
-//        System.out.println("4366");
-//        System.out.printf("%.6f\n", Lab02.task4366(7459, 7457) - 10547.2048);
-//        System.out.printf("%.6f\n", Lab02.task4366(-3, -7) - 7.6158);
-//        System.out.printf("%.6f\n", Lab02.task4366(0, 0) - 0.0);
-//    }
+    private static void Step4366(){
+        System.out.println();
+        System.out.println("4366");
+        System.out.printf("%.6f\n", Lab02.task4366(7459, 7457) - 10547.2048);
+        System.out.printf("%.6f\n", Lab02.task4366(-3, -7) - 7.6158);
+        System.out.printf("%.6f\n", Lab02.task4366(0, 0) - 0.0);
+    }
 //
 //    private static void Step5980(){
 //        System.out.println("5980");
