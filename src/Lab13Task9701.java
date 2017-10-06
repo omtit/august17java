@@ -4,10 +4,10 @@
  */
 public class Lab13Task9701 {
     public static void main(String[] args) {
-//        Step9020();
+        Step9020();
 //        Step7237();
 //        Step3943();
-//        Step8873();
+        Step8873();
 //        Step2624();
 //
 //        Step1346();
@@ -152,21 +152,21 @@ public class Lab13Task9701 {
 //        }
 //    }
 //
-//    private static void Step8873() {
-//        System.out.println();
-//        System.out.println("8873");
-//        int[] in8873r1 = {7331, 3, 0, 7309};
-//        int[] in8873r2 = {7321, 5, 7307, 0};
-//        double[] outs8873 = {0.0003, 0.5333, 0, 0};
-//        for (int i = 0; i < in8873r1.length; i++){
-//            try {
-//                double result = Lab02.task8873(in8873r1[i], in8873r2[i]);
-//                System.out.printf("%.6f (%.6f)\n", result, outs8873[i]);
-//            } catch (Exception e) {
-//                System.out.println(e.getMessage());
-//            }
-//        }
-//    }
+    private static void Step8873() {
+        System.out.println();
+        System.out.println("8873");
+        int[] in8873r1 = {7331, 3, 0, 7309};
+        int[] in8873r2 = {7321, 5, 7307, 0};
+        double[] outs8873 = {0.0003, 0.5333, 0, 0};
+        for (int i = 0; i < in8873r1.length; i++){
+            try {
+                double result = Lab02.task8873(in8873r1[i], in8873r2[i]);
+                System.out.printf("%.6f (%.6f)\n", result, outs8873[i]);
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+        }
+    }
 //
 //    private static void Step7619() {
 //        System.out.println();
@@ -233,20 +233,20 @@ public class Lab13Task9701 {
 //        }
 //    }
 //
-//    private static void Step9020() {
-//        System.out.println();
-//        System.out.println("9020");
-//        int[] in9020 = {0, -9, 61, 60, 62, 7573, 75};
-//        double[] outs9020 = {23.4307, 25.0998, 0, 3, 0, 0, 0};
-//        for (int i = 0; i < in9020.length; i++){
-//            try {
-//                double result = Lab02.task9020(in9020[i]);
-//                System.out.printf("%.6f (%.6f)\n", result, outs9020[i]);
-//            } catch (Exception e) {
-//                System.out.println(e.getMessage());
-//            }
-//        }
-//    }
+    private static void Step9020() {
+        System.out.println();
+        System.out.println("9020");
+        int[] in9020 = {0, -9, 61, 60, 62, 7573, 75};
+        double[] outs9020 = {23.4307, 25.0998, 0, 3, 0, 0, 0};
+        for (int i = 0; i < in9020.length; i++){
+            try {
+                double result = Lab02.task9020(in9020[i]);
+                System.out.printf("%.6f (%.6f)\n", result, outs9020[i]);
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+        }
+    }
 //
 //    private static void Step8833() {
 //        System.out.println();
