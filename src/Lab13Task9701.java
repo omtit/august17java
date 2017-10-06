@@ -38,7 +38,7 @@ public class Lab13Task9701 {
 //
 //        Step9180();
 //        Step1544();
-//        Step9631();
+   Step9631();
 //        Step9812();
 //        Step5728();
 //
@@ -546,20 +546,20 @@ public class Lab13Task9701 {
 //        }
 //    }
 //
-//    static void Step9631() {
-//        System.out.println();
-//        System.out.println("9631");
-//        String[] in9631 = {"z", "a", "g"};
-//        int[] out9631 = {0, 9, 0};
-//        for (int i = 0; i < in9631.length; i++) {
-//            try {
-//                int result = Lab07.task9631(in9631[i]);
-//                System.out.printf("%d (%d)\n", result, out9631[i]);
-//            } catch (Exception e) {
-//                System.out.println(e.getMessage());
-//            }
-//        }
-//    }
+    static void Step9631() {
+        System.out.println();
+        System.out.println("9631");
+        String[] in9631 = {"z", "a", "g"};
+        int[] out9631 = {0, 9, 0};
+        for (int i = 0; i < in9631.length; i++) {
+            try {
+                int result = Lab07.task9631(in9631[i]);
+                System.out.printf("%d (%d)\n", result, out9631[i]);
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+        }
+    }
 //
 //    static void Step5894() {
 //        System.out.println();
