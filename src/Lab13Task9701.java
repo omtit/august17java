@@ -7,8 +7,14 @@ public class Lab13Task9701 {
         Step9020();
 //        Step7237();
 //        Step9020();
+
+//        Step7237();
+       Step3943();
+
         Step7237();
 //        Step3943();
+
+//        Step8873();
         Step8873();
 //        Step2624();
 //
@@ -188,21 +194,21 @@ public class Lab13Task9701 {
 //        }
 //    }
 //
-//    private static void Step3943() {
-//        System.out.println();
-//        System.out.println("3943");
-//        int[] in3943x = {-5, 7507, 7489, -7481};
-//        int[] in3943y = {81, 7499, -7487, 7477};
-//        double[] outs3943 = {-10, -435.7062, 0, 0};
-//        for (int i = 0; i < in3943x.length; i++){
-//            try {
-//                double result = Lab02.task3943(in3943x[i], in3943y[i]);
-//                System.out.printf("%.6f (%.6f)\n", result, outs3943[i]);
-//            } catch (Exception e) {
-//                System.out.println(e.getMessage());
-//            }
-//        }
-//    }
+    private static void Step3943() {
+        System.out.println();
+        System.out.println("3943");
+        int[] in3943x = {-5, 7507, 7489, -7481};
+        int[] in3943y = {81, 7499, -7487, 7477};
+        double[] outs3943 = {-10, -435.7062, 0, 0};
+        for (int i = 0; i < in3943x.length; i++){
+            try {
+                double result = Lab02.task3943(in3943x[i], in3943y[i]);
+                System.out.printf("%.6f (%.6f)\n", result, outs3943[i]);
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+        }
+    }
 //
     private static void Step7237() {
         System.out.println();
