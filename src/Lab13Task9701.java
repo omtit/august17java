@@ -36,7 +36,7 @@ public class Lab13Task9701 {
 //        Step7799();
 //        Step2802();
 //
-//        Step9180();
+        Step9180();
 //        Step1544();
 //        Step9631();
 //        Step9812();
@@ -378,20 +378,20 @@ public class Lab13Task9701 {
 //        }
 //    }
 //
-//    static void Step9180() {
-//        System.out.println();
-//        System.out.println("9180");
-//        int[] in9180 = {-100, 7, 368, 501, -101};
-//        int[] outs9180 = {120200, 125229, 57722, 0, 0};
-//        for (int i = 0; i < in9180.length; i++){
-//            try {
-//                int result = Lab06.task9180(in9180[i]);
-//                System.out.printf("%d (%d)\n", result, outs9180[i]);
-//            } catch (Exception e) {
-//                System.out.println(e.getMessage());
-//            }
-//        }
-//    }
+    static void Step9180() {
+        System.out.println();
+        System.out.println("9180");
+        int[] in9180 = {-100, 7, 368, 501, -101};
+        int[] outs9180 = {120200, 125229, 57722, 0, 0};
+        for (int i = 0; i < in9180.length; i++){
+            try {
+                int result = Lab06.task9180(in9180[i]);
+                System.out.printf("%d (%d)\n", result, outs9180[i]);
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+        }
+    }
 //
 //    static void Step1544() {
 //        System.out.println();
