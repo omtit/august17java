@@ -25,4 +25,14 @@ public class Lab02 {
         return (temperatureInC * 1.8) + 32;
 
     }
+
+    public static double task8873(int r1, int r2) throws Exception {
+        if (r1==0) {
+            throw new Exception("Значение r1 должно быть не равно нулю");
+        }
+        if (r2==0) {
+            throw new Exception("Значение r2 должно быть не равно нулю");
+        }
+        return (1/r1)+(1/r2);
+    }
 }
