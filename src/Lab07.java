@@ -1,7 +1,15 @@
-/**
- * Created by pro-27 on 06.10.2017.
- */
 public class Lab07 {
+    public static int task9631(String x) throws Exception {
+        String str = "abcdefwxyz";
+        int a;
+        if (str.contains(x)) {
+            a = 9 - str.indexOf(x);
+            return a;
+        } else {
+            throw new Exception("Значение отсутствует в строке");
+        }
+    }
+
     public static int task9812(String ca, String cb) throws Exception {
         String string = "abcdefwxyz";
         if(!string.contains(ca)) {
