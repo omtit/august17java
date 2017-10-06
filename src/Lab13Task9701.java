@@ -36,7 +36,6 @@ public class Lab13Task9701 {
 //        Step1544();
         Step9812();
    Step9631();
-//        Step9812();
 //        Step5728();
 //
 //        Step5923();
