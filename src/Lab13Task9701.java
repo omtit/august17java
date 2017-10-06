@@ -391,20 +391,20 @@ public class Lab13Task9701 {
         }
     }
 //
-//    static void Step1544() {
-//        System.out.println();
-//        System.out.println("1544");
-//        int[] in1544 = {12, 70, 368, 10000, -11, 10001};
-//        int[] outs1544 = {23, 2430, 67841, 50004945, 0, 0};
-//        for (int i = 0; i < in1544.length; i++){
-//            try {
-//                int result = Lab06.task1544(in1544[i]);
-//                System.out.printf("%d (%d)\n", result, outs1544[i]);
-//            } catch (Exception e) {
-//                System.out.println(e.getMessage());
-//            }
-//        }
-//    }
+    static void Step1544() {
+        System.out.println();
+        System.out.println("1544");
+        int[] in1544 = {12, 70, 368, 10000, -11, 10001};
+        int[] outs1544 = {23, 2430, 67841, 50004945, 0, 0};
+        for (int i = 0; i < in1544.length; i++){
+            try {
+                int result = Lab06.task1544(in1544[i]);
+                System.out.printf("%d (%d)\n", result, outs1544[i]);
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+        }
+    }
 //
 //    static void Step1618() {
 //        System.out.println();
