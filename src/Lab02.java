@@ -12,7 +12,7 @@ public class Lab02 {
     }
 
     public static double task7237(double temperatureInC) throws Exception {
-        if(temperatureInC < -273.16) {
+        if(temperatureInC < -273.15) {
             throw new Exception("Температура должна быть выше абсолютного нуля");
         }
         return (temperatureInC * 1.8) + 32;
