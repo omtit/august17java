@@ -34,11 +34,11 @@ public class Lab13Task9701 {
 //        Step9130();
 //        Step2461();
 //        Step7799();
-//        Step2802();
+        Step2802();
 //
         Step9180();
 //        Step1544();
-//        Step9631();
+   Step9631();
 //        Step9812();
 //        Step5728();
 //
@@ -363,20 +363,20 @@ public class Lab13Task9701 {
 //        }
 //    }
 //
-//    private static void Step2802() {
-//        System.out.println();
-//        System.out.println("2802");
-//        int[] in2802 = {4, 11, 19, -1, 0};
-//        double[] out2802 = {2.0833, 3.0198, 3.5477};
-//        for (int i = 0; i < in2802.length; i++){
-//            try {
-//                double result = Lab06.task2802(in2802[i]);
-//                System.out.printf("%.6f (%.6f)\n", result, out2802[i]);
-//            } catch (Exception e) {
-//                System.out.println(e.getMessage());
-//            }
-//        }
-//    }
+    private static void Step2802() {
+        System.out.println();
+        System.out.println("2802");
+        int[] in2802 = {4, 11, 19, -1, 0};
+        double[] out2802 = {2.0833, 3.0198, 3.5477};
+        for (int i = 0; i < in2802.length; i++){
+            try {
+                double result = Lab06.task2802(in2802[i]);
+                System.out.printf("%.6f (%.6f)\n", result, out2802[i]);
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+        }
+    }
 //
     static void Step9180() {
         System.out.println();
@@ -546,20 +546,20 @@ public class Lab13Task9701 {
 //        }
 //    }
 //
-//    static void Step9631() {
-//        System.out.println();
-//        System.out.println("9631");
-//        String[] in9631 = {"z", "a", "g"};
-//        int[] out9631 = {0, 9, 0};
-//        for (int i = 0; i < in9631.length; i++) {
-//            try {
-//                int result = Lab07.task9631(in9631[i]);
-//                System.out.printf("%d (%d)\n", result, out9631[i]);
-//            } catch (Exception e) {
-//                System.out.println(e.getMessage());
-//            }
-//        }
-//    }
+    static void Step9631() {
+        System.out.println();
+        System.out.println("9631");
+        String[] in9631 = {"z", "a", "g"};
+        int[] out9631 = {0, 9, 0};
+        for (int i = 0; i < in9631.length; i++) {
+            try {
+                int result = Lab07.task9631(in9631[i]);
+                System.out.printf("%d (%d)\n", result, out9631[i]);
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+        }
+    }
 //
 //    static void Step5894() {
 //        System.out.println();
