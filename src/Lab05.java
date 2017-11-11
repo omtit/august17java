@@ -24,4 +24,17 @@ public class Lab05 {
     public static boolean task8715(int a, int b, int c){
         return a < b && b < c;
     }
+
+    public static double task5980(double k){
+        if (k>0){
+            return Math.sqrt(k);
+        }
+        else {
+            return k*k;
+        }
+    }
+    public static boolean task4847 ( int a, int b, int c)
+    {
+      return (a==b || b==c || a==c);
+    }
 }

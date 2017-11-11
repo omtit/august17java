@@ -6,7 +6,7 @@ public class Lab12Task5164 {
 
     public static void main(String[] args) {
         Step1860();
-//        Step4764();
+        Step4764();
 //        Step2429();
         Step7472();
 //        Step3862();
@@ -117,11 +117,11 @@ public class Lab12Task5164 {
 //        Lab01.task2429("перспективно");
 //    }
 //
-//    static void Step4764() {
-//        System.out.println();
-//        System.out.println("4764");
-//        Lab01.task4764("трудности");
-//        Lab01.task4764("загадки");
-//        Lab01.task4764("сложные задачи");
-//    }
+    static void Step4764() {
+        System.out.println();
+        System.out.println("4764");
+        Lab01.task4764("трудности");
+        Lab01.task4764("загадки");
+        Lab01.task4764("сложные задачи");
+    }
 }

@@ -5,7 +5,7 @@ public class Lab12Task2030 {
     public static void main(String[] args) {
         Step8878();
         Step8715();
-//        Step4847();
+        Step4847();
 //        Step1999();
 //        Step4042();
 //
@@ -49,20 +49,20 @@ public class Lab12Task2030 {
         }
     }
 
-//    private static void Step4847(){
-//        System.out.println();
-//        System.out.println("4847");
-//        int[] in4847x = {31, 19, 7, 67, 1};
-//        int[] in4847y = {59, 19, 11, -67, 1};
-//        int[] in4847z = {83, 41, 11, 67, 1};
-//        for (int i = 0; i < in4847x.length; i++){
-//            if (Lab05.task4847(in4847x[i], in4847y[i], in4847z[i])){
-//                System.out.println("Среди чисел есть равные");
-//            } else {
-//                System.out.println("Числа не равны друг другу");
-//            }
-//        }
-//    }
+    private static void Step4847(){
+        System.out.println();
+        System.out.println("4847");
+        int[] in4847x = {31, 19, 7, 67, 1};
+        int[] in4847y = {59, 19, 11, -67, 1};
+        int[] in4847z = {83, 41, 11, 67, 1};
+        for (int i = 0; i < in4847x.length; i++){
+            if (Lab05.task4847(in4847x[i], in4847y[i], in4847z[i])){
+                System.out.println("Среди чисел есть равные");
+            } else {
+                System.out.println("Числа не равны друг другу");
+            }
+        }
+    }
 //
 //    private static void Step1999(){
 //        System.out.println();

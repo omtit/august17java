@@ -4,8 +4,8 @@
 public class Lab12Task2354 {
     public static void main(String[] args) {
         Step4411();
-//        Step8428();
-//        Step1262();
+        Step8428();
+        Step1262();
 //        Step2790();
 //        Step9164();
 //
@@ -21,7 +21,7 @@ public class Lab12Task2354 {
 //        Step3558();
         Step4366();
 //
-//        Step5980();
+          Step5980();
 //        Step8174();
         Step5662();
 //        Step3770();
@@ -39,7 +39,7 @@ public class Lab12Task2354 {
 //        Step9925();
 //        Step4265();
 //
-//        Step3946();
+        Step3946();
 //        Step4283();
 //        Step9182();
     }
@@ -63,25 +63,25 @@ public class Lab12Task2354 {
         System.out.println(Lab05.task5662(0, 7, 13));
     }
 
-//    private static void Step8428(){
-//        System.out.println();
-//        System.out.println("8428");
-//        System.out.printf("%.6f\n", Lab02.task8428(45) - 0.7854);
-//        System.out.printf("%.6f\n", Lab02.task8428(1125) - 19.6350);
-//        System.out.printf("%.6f\n", Lab02.task8428(0));
-//        System.out.printf("%.6f\n", Lab02.task8428(360) - 6.2832);
-//        System.out.printf("%.6f\n", Lab02.task8428(90) - 1.5708);
-//        System.out.printf("%.6f\n", Lab02.task8428(2000) - 34.9066);
-//    }
+      private static void Step8428(){
+        System.out.println();
+        System.out.println("8428");
+        System.out.printf("%.6f\n", Lab02.task8428(45) - 0.7854);
+        System.out.printf("%.6f\n", Lab02.task8428(1125) - 19.6350);
+        System.out.printf("%.6f\n", Lab02.task8428(0));
+        System.out.printf("%.6f\n", Lab02.task8428(360) - 6.2832);
+        System.out.printf("%.6f\n", Lab02.task8428(90) - 1.5708);
+        System.out.printf("%.6f\n", Lab02.task8428(2000) - 34.9066);
+    }
 //
-//    private static void Step1262(){
-//        System.out.println();
-//        System.out.println("1262");
-//        System.out.printf("%.6f\n",Lab02.task1262(7583) - 4.6025);
-//        System.out.printf("%.6f\n",Lab02.task1262(200) - -4.6985);
-//        System.out.printf("%.6f\n",Lab02.task1262(360) - 5);
-//        System.out.printf("%.6f\n",Lab02.task1262(90) - 0);
-//    }
+    private static void Step1262(){
+        System.out.println();
+        System.out.println("1262");
+        System.out.printf("%.6f\n",Lab02.task1262(7583) - 4.6025);
+        System.out.printf("%.6f\n",Lab02.task1262(200) - -4.6985);
+        System.out.printf("%.6f\n",Lab02.task1262(360) - 5);
+        System.out.printf("%.6f\n",Lab02.task1262(90) - 0);
+    }
 //
 //    private static void Step2790(){
 //        System.out.println();
@@ -187,13 +187,13 @@ public class Lab12Task2354 {
         System.out.printf("%.6f\n", Lab02.task4366(0, 0) - 0.0);
     }
 //
-//    private static void Step5980(){
-//        System.out.println("5980");
-//        System.out.println(Lab05.task5980(9) - 3.0);
-//        System.out.println(Lab05.task5980(0) - 0.0);
-//        System.out.println(Lab05.task5980(-7) - 49.0);
-//    }
-//
+    private static void Step5980(){
+        System.out.println("5980");
+        System.out.println(Lab05.task5980(9) - 3.0);
+        System.out.println(Lab05.task5980(0) - 0.0);
+        System.out.println(Lab05.task5980(-7) - 49.0);
+    }
+
 //    private static void Step8174(){
 //        System.out.println();
 //        System.out.println("8174");
@@ -327,20 +327,20 @@ public class Lab12Task2354 {
 //        System.out.println(Lab07.task4265("Sopqr"));
 //    }
 //
-//    private static void Step3946(){
-//        System.out.println();
-//        System.out.println("3946");
-//        String[] in3946 = {
-//                "1 2 3 4 1",
-//                "1 2 3 4 1 3 4 4 4 4",
-//                ""
-//        };
-//        double[] out3946 = {2.2, 3, 0};
-//        for (int i = 0; i < in3946.length; i++) {
-//            double result = Lab08.task3946(in3946[i]);
-//            System.out.printf("%.6f (%.6f)\n", result, out3946[i]);
-//        }
-//    }
+    private static void Step3946(){
+        System.out.println();
+        System.out.println("3946");
+        String[] in3946 = {
+                "1 2 3 4 1",
+                "1 2 3 4 1 3 4 4 4 4",
+                ""
+        };
+        double[] out3946 = {2.2, 3, 0};
+        for (int i = 0; i < in3946.length; i++) {
+            double result = Lab08.task3946(in3946[i]);
+            System.out.printf("%.6f (%.6f)\n", result, out3946[i]);
+        }
+    }
 //
 //    private static void Step4283(){
 //        System.out.println();

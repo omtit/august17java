@@ -27,7 +27,9 @@ public class Lab01 {
         System.out.println("\"" + k + "\"");
     }
 
-
+public static void task4764 (String a){
+    System.out.println(a + " нас не остановят !");
+}
 
 
 }

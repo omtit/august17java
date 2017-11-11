@@ -4,7 +4,7 @@
  */
 public class Lab13Task3784 {
     public static void main(String[] args) {
-        Step4257();
+       /* Step4257();
         Step2291();
         Step1763();
         Step1945();
@@ -15,9 +15,9 @@ public class Lab13Task3784 {
         Step6556();
         Step2153();
         Step5170();
+        */
     }
-
-    private static void Step4257(){
+    /*private static void Step4257(){
         System.out.println();
         System.out.println("4257");
         double[] in4257l = {0.7, 0.3, 0.05, -2, 300};
@@ -193,5 +193,5 @@ public class Lab13Task3784 {
                 System.out.println(e.getMessage());
             }
         }
-    }
+    }*/
 }

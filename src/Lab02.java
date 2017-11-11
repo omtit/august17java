@@ -58,5 +58,13 @@ public class Lab02 {
         }
         return (v*t)+((a*Math.pow(t,2))/2);
     }
+    public static double task8428( int a){
+        double b = a * Math.PI /180;
+        return b;
+    }
+    public static double task1262(int a){
+        double b = Math.cos(a * Math.PI /180)*5;
+        return b;
+    }
 }
 
