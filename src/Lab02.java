@@ -56,15 +56,37 @@ public class Lab02 {
         if (v < 0) {
             throw new IllegalArgumentException("Начальная скорость должно быть неотрицательна");
         }
-        return (v*t)+((a*Math.pow(t,2))/2);
+        return (v * t) + ((a * Math.pow(t, 2)) / 2);
     }
-    public static double task8428( int a){
-        double b = a * Math.PI /180;
-        return b;
-    }
-    public static double task1262(int a){
-        double b = Math.cos(a * Math.PI /180)*5;
-        return b;
-    }
-}
 
+    public static double task8428(int a) {
+        double b = a * Math.PI / 180;
+        return b;
+    }
+
+    public static double task1262(int a) {
+        double b = Math.cos(a * Math.PI / 180) * 5;
+        return b;
+    }
+
+
+    public static double task2624(long a, long b, long c, long x) throws Exception {
+        if ((a * x * x + b * x + c) < 0) {
+            throw new Exception("Подкоренное выражение должно быть неотрицательным");
+        }
+        if ((Math.sqrt(a * x * x + b * x + c) == 0)) {
+            throw new Exception("Знаменатель не может быть равен нулю");
+        }
+        return 1.0/Math.sqrt(a * x * x + b * x + c);
+
+    }
+public static double task5871(double x) throws Exception {
+        if ((x+5)<0||(x-5)<0||x <0){
+            throw new Exception ("Подкоренное выражение должно быть неотрицательным");
+}
+        if (x==0){
+            throw new Exception ("Знаменатель не может быть равен нулю");
+        }
+        return (Math.sqrt(x+5) + Math.sqrt(x-5)) / (2*Math.sqrt(x));
+}
+}

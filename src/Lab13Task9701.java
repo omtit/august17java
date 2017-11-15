@@ -5,17 +5,17 @@
 public class Lab13Task9701 {
     public static void main(String[] args) {
         Step9020();
-//        Step7237();
+        Step7237();
 
        Step3943();
 
         Step7237();
 
         Step8873();
-//        Step2624();
+        Step2624();
 //
         Step1346();
-//        Step5871();
+        Step5871();
 //        Step3591();
 //        Step9298();
 //        Step3354();
@@ -70,42 +70,44 @@ public class Lab13Task9701 {
 //        }
 //    }
 //
-//    private static void Step5871() {
-//        System.out.println();
-//        System.out.println("5871");
-//        double[] in5871 = { 6911, 5, 6, 2, 0, -4};
-//        double[] outs5871 = { 1.0, 0.707107, 0.881127, -1, -1, -1 };
-//        for (int i = 0; i < in5871.length; i++){
-//            try {
-//                double result = Lab02.task5871(in5871[i]);
-//                System.out.printf("%.6f (%.6f)\n", result, outs5871[i]);
-//            } catch (Exception e) {
-//                System.out.println(e.getMessage());
-//            }
-//        }
-//    }
+    private static void Step5871() {
+        System.out.println();
+        System.out.println("5871");
+        double[] in5871 = { 6911, 5, 6, 2, 0, -4};
+        double[] outs5871 = { 1.0, 0.707107, 0.881127, -1, -1, -1 };
+        for (int i = 0; i < in5871.length; i++){
+            try {
+                double result = Lab02.task5871(in5871[i]);
+                System.out.printf("%.6f (%.6f)\n", result, outs5871[i]);
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+        }
+    }
 //
-//    private static void Step2624() {
-//        System.out.println();
-//        System.out.println("2624");
-//        int[] in2624a = {6991, 11, -6959, 0};
-//        int[] in2624b = {6983, 13, 6949, 0};
-//        int[] in2624c = {6977, 17, 6947, 0};
-//        int[] in2624x = {6961, 19, 6917, 0};
-//        double[] outs2624 = {0.0, 0.0154, 0, 0};
-//        for (int i = 0; i < in2624a.length; i++){
-//            try {
-//                double result = Lab02.task2624(
-//                        in2624a[i], in2624b[i],
-//                        in2624c[i], in2624x[i]);
-//                System.out.printf("%.6f (%.6f)\n", result, outs2624[i]);
-//            } catch (Exception e) {
-//                System.out.println(e.getMessage());
-//            }
-//        }
-//    }
-//
+    private static void Step2624() {
+        System.out.println();
+        System.out.println("2624");
+        int[] in2624a = {11, 6991, 3, -6959, 0, 1};
+        int[] in2624b = {13, 6983, 11, 6949, 0, 2};
+        int[] in2624c = {17, 6977, -241, 6947, 0, -3};
+        int[] in2624x = {19, 6961, 1, 6917, 0, 1};
+        double[] outs2624 = {0.0, 0.0154, 0, 0};
+        for (int i = 0; i < in2624a.length; i++){
+            try {
+                double result = Lab02.task2624(
+                        in2624a[i], in2624b[i],
+                        in2624c[i], in2624x[i]);
+                System.out.printf("%.6f (%.6f)\n", result, outs2624[i]);
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+        }
+    }
+
     private static void Step1346(){
+        System.out.println();
+        System.out.println(1346);
         int[] in1346v = new int[]{3, 100, 0, 7411, 10, 19, -13};
         int[] in1346t = new int[]{7, 5, 33, 7433, -15, 0, 80};
         int[] in1346a = new int[]{11, -10, 17, 7417, 9, 23, 63};
