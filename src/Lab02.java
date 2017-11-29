@@ -89,4 +89,12 @@ public static double task5871(double x) throws Exception {
         }
         return (Math.sqrt(x+5) + Math.sqrt(x-5)) / (2*Math.sqrt(x));
 }
+
+    public static double task3591(double h) throws Exception{
+        if (h<0){
+            throw new Exception("Высота над уровнем Земли должна быть неотрицательна");
+        }
+        return Math.sqrt((6350+h)*(6350+h) - 6350 * 6350);
+    }
+
 }

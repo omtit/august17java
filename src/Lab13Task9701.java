@@ -16,7 +16,7 @@ public class Lab13Task9701 {
 //
         Step1346();
         Step5871();
-//        Step3591();
+        Step3591();
 //        Step9298();
 //        Step3354();
 //
@@ -55,21 +55,21 @@ public class Lab13Task9701 {
 //        Step8769();
     }
 //
-//    private static void Step3591() {
-//        System.out.println();
-//        System.out.println("3591");
-//        int[] in3591 = {0,200,6857, -500};
-//        double[] out3591 = {0, 1606.2378, 11580.2569, -1};
-//        for(int i = 0; i < in3591.length; i++){
-//            try {
-//                double result = Lab02.task3591(in3591[i]);
-//                System.out.printf("%.6f (%.6f)\n",result, out3591[i]);
-//            } catch (Exception e) {
-//                System.out.println(e.getMessage());
-//            }
-//        }
-//    }
-//
+    private static void Step3591() {
+        System.out.println();
+        System.out.println("3591");
+        int[] in3591 = {0,200,6857, -500};
+        double[] out3591 = {0, 1606.2378, 11580.2569, -1};
+        for(int i = 0; i < in3591.length; i++){
+            try {
+                double result = Lab02.task3591(in3591[i]);
+                System.out.printf("%.6f (%.6f)\n",result, out3591[i]);
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
+        }
+    }
+
     private static void Step5871() {
         System.out.println();
         System.out.println("5871");
